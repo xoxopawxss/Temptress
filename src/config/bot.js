@@ -10,7 +10,7 @@ export const botConfig = {
   // - "idle"      = yellow moon
   // - "dnd"       = red do-not-disturb
   // - "invisible" = appears offline
-  presence: {online}
+  presence: {
     // Current online state shown on Discord.
     status: "I love Silventia",
 
@@ -27,7 +27,7 @@ export const botConfig = {
         // Text users will see (example: "Playing /help | Titan Bot").
         name: "Submissive whimper audios",
         // Activity type number (0 = Playing).
-        type: 1, 
+        type: 2, 
       },
     ],
   },
